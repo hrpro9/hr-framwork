@@ -2,21 +2,37 @@ Here is the file layout:
 
 
 example.com
+
 ├── composer.json
+
 ├── composer.lock
+
 ├── src
+
 │   ├── app.php
+
 │   └── Simplex
+
 │       └── Framework.php
+
 │   └── Calendar
+
 │       └── Controller
+
 │       │   └── LeapYearController.php
+
 │       └── Model
+
 │           └── LeapYear.php
+
 ├── vendor
+
 │   └── autoload.php
+
 └── web
+
     └── front.php
+    
 
 
 That's it! Our application has now four different layers and each of them has a well-defined goal:
