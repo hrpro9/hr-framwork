@@ -1,37 +1,24 @@
 Here is the file layout:
 
 
+<code>
 example.com
-|
 ├── composer.json
-|
 ├── composer.lock
-|
 ├── src
-|   |
 │   ├── app.php
-|   |
 │   └── Simplex
-|       |
 │       └── Framework.php
-|   |
 │   └── Calendar
-|       |
 │       └── Controller
-|       |   |
 │       │   └── LeapYearController.php
-|       |
 │       └── Model
-|           |
 │           └── LeapYear.php
-|
 ├── vendor
-|   |
 │   └── autoload.php
-|
 └── web
-    |
     └── front.php
+</code>
 
 
 
