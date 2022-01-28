@@ -30,4 +30,7 @@ src/Simplex: The reusable framework code that abstracts the handling of incoming
 src/Calendar: Our application specific code (the controllers and the model);
 
 src/app.php: The application configuration/framework customization.
+
+<h3>To start project</h3>
+$ symfony server:start --port=4321 --passthru=front.php
 </pre>
